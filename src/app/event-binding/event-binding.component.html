@@ -1,0 +1,20 @@
+
+    <div>
+        <h2>Event-binding Component [button]</h2>
+        <button class="btn btn-danger" (click)="onIncrementCommand()">Increment</button>
+        <button class="btn btn-danger" (click)="onDecrementCommand()">Decrement</button>
+        <p id="NumPara">{{num}}</p>
+
+        <h2>Event-binding Component [Text]</h2>
+        <!--This is the input field where user will input the data-->
+        <!--form control is a bootstrap class-->
+        <!--$event is and html dom object to fetch the event data-->
+        <!--(input)="onUpdateName($event)"  is responsible to  send data to the mentioned method-->
+        <input 
+        type="text" 
+        class="form-control"            
+        (input)="onUpdateName($event)"  
+        />
+        <p>inputed data : {{enteredData}}</p>
+
+    </div>

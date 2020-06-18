@@ -1,0 +1,14 @@
+<div>
+    <h2>Two way binding Component [Text]</h2>
+        <!--This is the input field where user will input the data-->
+        <!--form control is a bootstrap class-->
+        <!--$event is and html dom object to fetch the event data-->
+        <!--(input)="onUpdateName($event)"  is responsible to  send data to the mentioned method-->
+        <input 
+        type="text" 
+        class="form-control"  
+        [(ngModel)]="inputedData">
+
+        <!--String interpolation is prfromed to show the inputeed data-->
+        <p>inputed name : {{inputedData}}</p>
+</div>

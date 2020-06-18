@@ -1,0 +1,87 @@
+div{
+    color: blue;
+    background-color: chartreuse;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+#mainDIV{
+    color: blue;
+    background-color: chartreuse;
+    padding: 20px;
+   
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h2{
+    color: blue;
+    background-color: chartreuse;
+    padding-bottom: 10px;
+    font-size: xx-large ;
+}
+
+#para1{
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+
+#para2{
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+#NumPara{
+    padding-bottom: 0px;
+    padding-left:78px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#input{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#button{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+    position: relative;
+    left:  90px;
+    bottom: 84px;
+}
+
+h3{
+    color: rgb(4, 4, 5);
+    background-color: chartreuse;
+    padding-bottom: 5px;
+    font-size: medium ;
+}
+
+#success{
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-top: 0px;
+}
+#fail{
+    color: rgb(163, 38, 38);
+    padding-bottom: 10px;
+    padding-left: 9px;
+    padding-top: 0px;
+}
+
+
+#newUserButton{
+    position: relative;
+    top: -10px;
+    left: -20px;
+
+}

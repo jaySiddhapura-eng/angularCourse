@@ -1,0 +1,63 @@
+<div>
+
+
+        <h2>ngIf demo</h2>
+
+        <div *ngIf = "newUserCreateWindow"
+        id="mainDIV"
+            >
+            <div id="input">
+
+                <h3>User Name</h3>
+                <input 
+                type="text" 
+                class="form-control"            
+                [(ngModel)]="username"
+                />
+    
+            </div>
+    
+            <div id="input">
+    
+                <h3>Email</h3>
+                <input 
+                type="email"
+                class="form-control"            
+                [(ngModel)]="email"
+                />
+    
+            </div>
+    
+            <p id="success" *ngIf="filledData ; else emptydata" >data submission successful</p>
+
+            <ng-template #emptydata>
+                <p>submit the data</p>
+            </ng-template>
+            
+        </div>
+
+       
+
+        <div id="newUserButton">
+            <button id="newUserButton"
+            class="btn btn-primary" 
+            
+            (click)="onNewUser()"
+            >
+            New user
+            </button>
+        </div>
+
+        <div id="button">
+
+            <button 
+                class="btn btn-primary" 
+                (click)="onSubmit()"
+            >
+            Submit
+            </button>
+        </div>
+
+
+
+</div>

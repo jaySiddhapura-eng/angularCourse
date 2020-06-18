@@ -1,0 +1,30 @@
+<div>
+            <!--assignment addition-->
+        <!--String interpolation is prfromed to show the inputeed data-->
+        <h2>Assignment 2</h2>
+
+        <ul style="padding-bottom: 15px;">
+            <li>Add an input field which updates a property('username') via two-way-bining</li>
+            <li>Output the username property via String interpolation</li>
+            <li>Add a button which may only be clicked if thee username is not an empty string</li>
+            <li>Upon clicking the button, the username should be reset to an empty string</li>
+        </ul>
+
+        <div id="input">
+            <input 
+            type="text" 
+            class="form-control"            
+            [(ngModel)]="username"
+            />
+        </div>
+
+        <div id="button">
+        <button 
+        class="btn btn-primary" 
+        [disabled]="username === ''"
+        (click)="username = ''"
+        >
+        Reset
+        </button>
+        </div>
+</div>

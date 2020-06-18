@@ -1,0 +1,16 @@
+#divMini1{
+    color: blue;
+    background-color: rgb(219, 186, 39);
+    padding: 20px;
+    padding-left: 40px;
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h2{
+    color: blue;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    font-size: xx-large ;
+}
