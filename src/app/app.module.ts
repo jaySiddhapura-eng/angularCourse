@@ -13,6 +13,9 @@ import { FormsModule} from '@angular/forms';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { Assignment2Component } from './assignment2/assignment2.component';
 import { NGIFComponent } from './ngif/ngif.component';
+import { NgStyleDemoComponent } from './ng-style-demo/ng-style-demo.component';
+import { NgClassDemoComponent } from './ng-class-demo/ng-class-demo.component';
+import { NgForDemoComponent } from './ng-for-demo/ng-for-demo.component';
 
 
 @NgModule({
@@ -28,6 +31,9 @@ import { NGIFComponent } from './ngif/ngif.component';
     TwoWayBindingComponent,
     Assignment2Component,
     NGIFComponent,
+    NgStyleDemoComponent,
+    NgClassDemoComponent,
+    NgForDemoComponent,
   ],
   imports: [                  // allows us to add other modules to this module
     BrowserModule,             // default module

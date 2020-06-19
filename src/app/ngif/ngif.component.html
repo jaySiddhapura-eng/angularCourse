@@ -61,3 +61,47 @@
 
 
 </div>
+
+<!--ng switch case-->
+<!--
+
+<div [ngSwitch]="checkStatement">
+
+    <div *ngSwitchCase = " 'condition 1' ">
+        if checkStatement is equal to condition 1, show this div
+    </div>
+
+    <div *ngSwitchCase = " 'condition 2' ">
+        if checkStatement is equal to condition 2, show this div
+    </div>
+
+    <div *ngSwitchCase = " 'condition 3' ">
+        if checkStatement is equal to condition 3, show this div
+    </div>
+
+    <div *ngSwitchDefault>
+        this is default which will be visible if check statement does not matches
+        to any ccondition in the switch case
+    </div>
+
+</div>
+    
+-->
+
+<!--more beautiful ngIf-->
+<!--
+
+<div *ngIf = "condtion1 === true; then section1 else section2">
+    showing area for selected section
+</div>
+
+<ng-template #section1>
+    section 1 to show
+</ng-template>
+
+<ng-template #section2>
+    section 2 to show
+</ng-template>
+
+-->
+

@@ -1,0 +1,37 @@
+div{
+    color: blue;
+    background-color: chartreuse;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+h2{
+    color: blue;
+    background-color: chartreuse;
+    padding-bottom: 10px;
+    font-size: xx-large ;
+}
+
+h3{
+    color: rgb(4, 4, 5);
+    background-color: chartreuse;
+    padding-bottom: 5px;
+    font-size: medium ;
+}
+
+button{
+    margin: 5px;
+}
+
+ul{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+p{
+    position: relative;
+    left: 380px;
+    bottom: 34px;
+}

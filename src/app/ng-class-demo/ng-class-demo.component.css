@@ -1,0 +1,51 @@
+div{
+    color: blue;
+    background-color: chartreuse;
+    padding: 20px;
+    padding-left: 40px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+button{
+    margin: 5px;
+}
+
+ul{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+p{
+    position: relative;
+    left: 380px;
+    bottom: 34px;
+}
+
+.class1{
+
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   color: purple;
+   background-color: palegreen;
+
+}
+
+.class2{
+
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: smaller;
+    color: olive;
+    background-color: skyblue;
+
+}
+
+#class1Code{
+
+    display: inline-block;
+
+}
+
+#class2Code{
+    display: inline-block;
+}

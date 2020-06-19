@@ -1,0 +1,70 @@
+<div >
+    <h2>ng Class</h2>
+
+    <!--following list summerize the feture-->
+
+    <ul 
+    [ngClass]="{class1:selectedClass ==='class1',class2:selectedClass ==='class2'}">
+        <li>ng class basically apply a modification to the html element</li>
+        <li>This modifications are mentioned in the classes of the corrosponding css file</li>
+        <li>this style can be implemented in .ts file with inline in section style of decorator</li>
+        <li>the modifications will be apply to this list using ngClass</li>
+        <li>to apply style of class1 on this list, press <b>Apply class 1</b></li>
+        <li>to apply style of class2 on this list, press <b>Apply class 2</b></li>
+    </ul>
+
+
+    <!--Button to turn the BG to yellow-->
+    <button class="btn btn-primary"
+            (click) = "onClickClass1Btn()"
+    >   Apply  class 1
+    </button>
+
+    <!--Button to turn the text color to black-->
+    <button class="btn btn-primary"
+    (click) = "onClickClass2Btn()"
+    >   Apply class 2
+    </button>
+
+    <button class="btn btn-primary"
+    (click) = "onReset()"
+    >   RESET
+    </button>
+
+    <p>
+        selected class : {{selectedClass}}
+    </p>
+
+    <div id="class1Code">
+    <code>
+        class1<br>
+            font-family: 'Times New Roman', Times, serif;<br>
+            font-size: larger;<br>
+            color: purple;<br>
+            background-color: palegreen;<br>
+    </code>
+    </div>
+
+    <div id="class2CodeD">
+    <code>
+        class2<br>
+        font-family: Verdana, Tahoma, sans-serif;<br>
+        font-size: smaller;<br>
+        color: olive;<br>
+        background-color: skyblue;<br>
+    </code>
+    </div>
+</div>
+
+
+<!--syntax -->
+
+<!--
+    
+<p 
+[ngClass] = "{classToBeSelected : conditionToBeChecked , anotherClass : anotherConditionToBeChecked}"
+>
+    the class styles will be apply to this paragraph
+</p>
+
+-->

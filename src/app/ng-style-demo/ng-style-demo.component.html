@@ -1,0 +1,66 @@
+<div >
+    <h2>ng Style</h2>
+
+    <!--following list summerize the feture-->
+    <ul [ngStyle]="{backgroundColor:getColor(),color:getFontColor()}">
+        <li>ngStyle is an attribibute directive</li>
+        <li>ngStyle changes the style of the html element</li>
+        <li>ngStyle is triggered by the business logic of typescript file</li>
+        <li>press the following button to change the backround of this demo section</li>
+        <li>when you will press the button onPress() method will be executed in .ts file</li>
+        <li>this method will change variable <b>screenVar</b> in the .ts file</li>
+        <li>ngStyle will recognise this change in <b>screenVar</b> and apply the color change to this demo element</li>
+    </ul>
+
+    <!--Button to turn the BG to yellow-->
+    <button class="btn btn-primary"
+            (click) = "onBgPress()"
+    >   BG:YELLOW
+    </button>
+
+    <!--Button to turn the text color to black-->
+    <button class="btn btn-primary"
+    (click) = "onTextColorPress()"
+    >   TEXT:BLACK
+    </button>
+
+    <!--Button to perform the reset-->
+    <button class="btn btn-primary"
+    (click) = "onReset()"
+    >   RESET
+    </button>
+
+    <!--button to enter the data from the text field-->
+    <button class="btn btn-primary"
+    (click) = "onEnter()"
+    >   ENTER
+    </button>
+
+    <!--interpolatinng the string (BG color and text ccolor)in the paragraph-->
+    <p>Background Color : <b>{{getColor()}}</b>  ||  Text Color : <b>{{getFontColor()}}</b></p>
+
+
+    <!--Input field for bacckground color input "two way binded" to the variable in the ts-->
+    <input 
+            type="text" 
+            class="form-control"  
+            [(ngModel)]="screenVarUser"          
+            />Background Color Input 
+
+    <!--Input field for text color input "two way binded" to the variable in the ts-->
+    <input 
+            type="text" 
+            class="form-control"  
+            [(ngModel)]="textColorVarUser"          
+            />Font Color        
+
+
+    
+
+
+
+</div>
+
+<!--
+    [(ngModel)]="username"
+-->

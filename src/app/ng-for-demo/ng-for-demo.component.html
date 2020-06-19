@@ -1,0 +1,18 @@
+
+    <div>
+        <h2>ng For</h2>
+
+
+        <input 
+        type="text" 
+        class="form-control"            
+        [(ngModel)]="serverName"
+        />
+
+        <button class="btn btn-primary" (click)="onAdd()">Add</button>
+
+        <ul>
+            <li *ngFor="let s of serverList ; let i = index" ><b>{{obtainName(i)}}</b> added</li>
+        </ul>
+
+    </div>
