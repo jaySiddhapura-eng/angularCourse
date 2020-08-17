@@ -15,10 +15,12 @@ export class EventBindingComponent {
 
   onIncrementCommand(){
     this.num++;
+    console .log(this.num);
   }
 
   onDecrementCommand(){
     this.num--;
+    console.log(this.num);
   }
 
   // this method is being called to collect the inputed data from html

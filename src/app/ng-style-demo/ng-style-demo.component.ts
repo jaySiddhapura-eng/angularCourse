@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class NgStyleDemoComponent  {
 
   screenVar: string = 'chartreus';      // default colors
-  textColorVar: string = 'blue'
+  textColorVar: string = 'blue';
 
   screenVarUser: string = 'green';       // defult value from color obtained by user
-  textColorVarUser: string = 'yellow'
+  textColorVarUser: string = 'yellow';
 
 
   onBgPress(){                            // this method get executed when BG:YELLOW button pressed
