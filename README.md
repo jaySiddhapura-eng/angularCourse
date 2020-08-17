@@ -11,9 +11,7 @@
 
 ## Pre-requisites to start the Angular development [windows]
 
-1. Installation of node
-
-   1. Link: [Node.js](https://nodejs.org/en/)
+1. Installation of node Link:  [Node.js](https://nodejs.org/en/)
 
    ~~~powershell
    # Version check for Node.js 
