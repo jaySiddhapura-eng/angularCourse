@@ -2,14 +2,30 @@
 
 ------
 
-## Single page application (SPA)
+## Table of Contents  
+* [Single Page Application](#Single-Page-Application)<br>
+* [Prerequisites to Start the Angular Development in Windows](#Prerequisites-to-Start-the-Angular-Development-in-Windows)<br>
+* [Some Important Files in the Angular Project](#Some-Important-Files-in-The-Angular-Project)<br>
+* [Bootstrap Usage in Angular Project](#Bootstrap-Usage-in-Angular-Project)<br>
+* [Angular App Workflow](#Angular-App-Workflow)<br>
+* [Components](#Components)<br>
+* [Create a Component](#Create-a-Component)<br>
+* [Using the Created Component](#Using-the-Created-Component)<br>
+* [Adding HTML View into The Above Created Component](#Adding-HTML-View into-The-Above-Created-Component)<br>
+* [Add Style to The Component](#Add-Style-to-The-Component)<br>
+* [Databinding ](#Databinding )<br>
+* [Introduction to Directives](#Introduction-to-Directives)<br>
+* [Structural Directives](#Structural-Directives)<br>
+* [Attribute Directives](#Attribute-Directives)<br>
+
+## Single Page Application
 
 1. A Web application which interact with the web browser by using only single page
 2. The single page loaded dynamically with different data from server on the demand
 3. No concept of loading different pages
 4. Eg. Gmail, Facebook etc
 
-## Pre-requisites to start the Angular development [windows]
+## Prerequisites to Start the Angular Development in Windows
 
 1. Installation of node,  Link:  [Node.js](https://nodejs.org/en/)
 
@@ -60,7 +76,7 @@
    $ npm install
    ~~~
 
-## Some Important Files in the Angular Project
+## Some Important Files in The Angular Project
 
 ~~~typescript
  Angular-Project
@@ -114,7 +130,7 @@
 
 3. Restart the server using ```ng serve```
 
-## Angular app Workflow
+## Angular App Workflow
 
 ![AngularWorkFlow](assets/angularWorkFlow.PNG)
 
@@ -197,7 +213,7 @@
 
 7. Analogy: child component : ```custom-component``` , parent component : ```app-component```
 
-## Adding HTML view into the above created component
+## Adding HTML View into The Above Created Component
 
 1. Connect the html file to the typescript file of the same component
 
@@ -218,7 +234,7 @@
 
 3. HTML code in typescript file is only recommended when HTML code is relatively small
 
-## Add style to the component
+## Add Style to The Component
 
 1. The CSS style can be added to the corresponding CSS file of the component
 
@@ -448,7 +464,7 @@
    
    ~~~
 
-## Directives : Introduction
+## Introduction to Directives
 
 1. Instruction in the DOM (Document Object Model)
 2. Angular component can be called as one kind of Directives
@@ -457,7 +473,7 @@
    1. **Structural Directive**: Can change the DOM layout by adding/ removing the DOM element
    2. **Attribute Directive**: Can change the appearance of the DOM element by adding different styles
 
-## Directives : Structural Directives
+## Structural Directives
 
 1. ```*ngIf``` 
 
@@ -561,7 +577,7 @@
 
    5. During iteration it will render the array element in each list item
 
-## Directives: Attribute Directives
+## Attribute Directives
 
 1. This type of directives applies style to the DOM elements according to the property of TS file of element
 
