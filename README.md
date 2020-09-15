@@ -18,14 +18,14 @@
 * [Structural Directives](#Structural-Directives)<br>
 * [Attribute Directives](#Attribute-Directives)<br>
 
-## Single Page Application
+## Single Page Application [:arrow_up:](#Table-of-Contents )<br>
 
 1. A Web application which interact with the web browser by using only single page
 2. The single page loaded dynamically with different data from server on the demand
 3. No concept of loading different pages
 4. Eg. Gmail, Facebook etc
 
-## Prerequisites to Start the Angular Development in Windows
+## Prerequisites to Start the Angular Development in Windows [:arrow_up:](#Table-of-Contents )<br>
 
 1. Installation of node,  Link:  [Node.js](https://nodejs.org/en/)
 
@@ -76,7 +76,7 @@
    $ npm install
    ~~~
 
-## Some Important Files in The Angular Project
+## Some Important Files in The Angular Project [:arrow_up:](#Table-of-Contents )<br>
 
 ~~~typescript
  Angular-Project
@@ -103,7 +103,7 @@
     └── package.json            # project dependency + project property
 ~~~
 
-## Bootstrap Usage in Angular Project
+## Bootstrap Usage in Angular Project [:arrow_up:](#Table-of-Contents )<br>
 
 1. Install bootstrap in the project repository [project wide dependency]
 
@@ -130,11 +130,11 @@
 
 3. Restart the server using ```ng serve```
 
-## Angular App Workflow
+## Angular App Workflow [:arrow_up:](#Table-of-Contents )<br>
 
 ![AngularWorkFlow](assets/angularWorkFlow.PNG)
 
-## Components
+## Components [:arrow_up:](#Table-of-Contents )<br>
 
 1. Components are atomic member of any angular app
 2. Imagine an entire angular app consisting of multiple components
@@ -142,7 +142,7 @@
 4. Component can be interdependent through common services
 5. each component contains html, css, ts and spec.ts files
 
-## Create a Component
+## Create a Component [:arrow_up:](#Table-of-Contents )<br>
 
 1. using Angular CLI
 
@@ -190,7 +190,7 @@
    })
    ~~~
 
-## Using the Created Component
+## Using the Created Component [:arrow_up:](#Table-of-Contents )<br>
 
 1. ```App-component``` is the default component [root-component]
 
@@ -213,7 +213,7 @@
 
 7. Analogy: child component : ```custom-component``` , parent component : ```app-component```
 
-## Adding HTML View into The Above Created Component
+## Adding HTML View into The Above Created Component [:arrow_up:](#Table-of-Contents )<br>
 
 1. Connect the html file to the typescript file of the same component
 
@@ -234,7 +234,7 @@
 
 3. HTML code in typescript file is only recommended when HTML code is relatively small
 
-## Add Style to The Component
+## Add Style to The Component [:arrow_up:](#Table-of-Contents )<br>
 
 1. The CSS style can be added to the corresponding CSS file of the component
 
@@ -244,7 +244,7 @@
    })
    ~~~
 
-## Databinding 
+## Databinding [:arrow_up:](#Table-of-Contents )<br>
 
 1. Data transfer between HTML layout and typescript file of the component
 
@@ -464,7 +464,7 @@
    
    ~~~
 
-## Introduction to Directives
+## Introduction to Directives [:arrow_up:](#Table-of-Contents )<br>
 
 1. Instruction in the DOM (Document Object Model)
 2. Angular component can be called as one kind of Directives
@@ -473,7 +473,7 @@
    1. **Structural Directive**: Can change the DOM layout by adding/ removing the DOM element
    2. **Attribute Directive**: Can change the appearance of the DOM element by adding different styles
 
-## Structural Directives
+## Structural Directives [:arrow_up:](#Table-of-Contents )<br>
 
 1. ```*ngIf``` 
 
@@ -577,7 +577,7 @@
 
    5. During iteration it will render the array element in each list item
 
-## Attribute Directives
+## Attribute Directives [:arrow_up:](#Table-of-Contents )<br>
 
 1. This type of directives applies style to the DOM elements according to the property of TS file of element
 
