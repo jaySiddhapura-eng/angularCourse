@@ -11,7 +11,7 @@
 * [Components](#Components)<br>
 * [Create a Component](#Create-a-Component)<br>
 * [Using the Created Component](#Using-the-Created-Component)<br>
-* [Adding HTML View into The Above Created Component](#Adding-HTML-View into-The-Above-Created-Component)<br>
+* [Adding HTML View into The Above Created Component](#Adding-HTML-View-into-The-Above-Created-Component)<br>
 * [Add Style to The Component](#Add-Style-to-The-Component)<br>
 * [Databinding ](#Databinding )<br>
 * [Introduction to Directives](#Introduction-to-Directives)<br>
