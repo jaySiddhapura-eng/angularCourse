@@ -7,7 +7,6 @@
 * [Prerequisites to Start the Angular Development in Windows](#Prerequisites-to-Start-the-Angular-Development-in-Windows)<br>
 * [Some Important Files in the Angular Project](#Some-Important-Files-in-The-Angular-Project)<br>
 * [Bootstrap Usage in Angular Project](#Bootstrap-Usage-in-Angular-Project)<br>
-* [Angular App Workflow](#Angular-App-Workflow)<br>
 * [Components](#Components)<br>
 * [Create a Component](#Create-a-Component)<br>
 * [Using the Created Component](#Using-the-Created-Component)<br>
@@ -138,11 +137,9 @@
 
 3. Restart the server using ```ng serve```
 
-## Angular App Workflow
+4. Angular app workflow
 
-## 	[:arrow_up:](#Table-of-Contents )<br>
-
-![AngularWorkFlow](assets/angularWorkFlow.PNG)
+   ![AngularWorkFlow](assets/angularWorkFlow.PNG)
 
 ## Components
 
